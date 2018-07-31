@@ -7,6 +7,8 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "russell spencer",
+  "email": "penninewebdesign@gmail.com",
+  "url": "https://penninewebdesign.co.uk",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.9.2"
