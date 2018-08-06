@@ -26,7 +26,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.85;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -42,14 +42,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #0041e6;
+    background: black;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.75s ease; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #0048ff;
+    background: black;
     transition: all 0.75s ease;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -117,7 +117,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #0048ff;
+  background: black;
   color: #ffffff;
   height: 100%;
   margin: 0;
@@ -135,7 +135,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(0, 72, 255, 0.2); }
+      background: rgba(0, 0, 0, 0.6); }
 
 h1,
 h2,
@@ -150,8 +150,8 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(15, 83, 255, 0.1);
+    padding: 0.5rem 01rem;
+    background: rgba(8, 8, 8, 0.1);
     max-width: 645px; }
 
 a {
@@ -167,7 +167,7 @@ header {
   color: #ff6f00; }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   height: 100%; }
   main .icons {
     margin-top: 1rem; }

@@ -28,7 +28,7 @@ h3 {
   }
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 01rem;
     background: rgba(lighten($primary-color, 3), 0.1);
     max-width: 645px;
   }
@@ -50,7 +50,7 @@ header {
 }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   height: 100%;
 
   .icons {
